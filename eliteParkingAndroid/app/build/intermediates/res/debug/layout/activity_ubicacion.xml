@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    >
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/Mapa"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ubicación de mi carro"
+        android:id="@+id/btnUbicacion"
+        android:layout_below="@+id/Mapa"
+        android:layout_alignParentLeft="true" />
+
+
+</RelativeLayout><!-- From: file:/Users/Manuelgaleano/AndroidstudioProjects/EliteParking/app/src/main/res/layout/activity_ubicacion.xml -->

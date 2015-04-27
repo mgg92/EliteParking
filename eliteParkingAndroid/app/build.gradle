@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        llaveMaps {
+            keyAlias 'llaveEliteParking'
+            keyPassword 'Manuel33'
+            storeFile file('/Users/Manuelgaleano/AndroidstudioProjects/EliteParking/llaveEP.Documentos')
+            storePassword 'Manuel33'
+        }
+    }
+    compileSdkVersion 19
+    buildToolsVersion "21.1.2"
+    defaultConfig {
+        applicationId "com.example.eliteparking"
+        minSdkVersion 16
+        targetSdkVersion 16
+        testApplicationId "com.example.eliteparking.tests"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+    }
+    testOptions {
+        reportDir = "$project.buildDir/results/report"
+        resultsDir = "$project.buildDir/results"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+        debug {
+            signingConfig signingConfigs.llaveMaps
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:19.1.0'
+    compile files('libs/android-async-http-1.4.3.jar')
+    compile 'com.android.support:appcompat-v7:20.+'
+    compile 'com.google.android.gms:play-services:6.1.+'
+}
