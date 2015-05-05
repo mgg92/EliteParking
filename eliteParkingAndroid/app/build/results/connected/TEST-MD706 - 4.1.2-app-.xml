@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.eliteparking.tests.ApplicationTest" tests="5" failures="1" errors="0" skipped="0" time="0.028" timestamp="2015-04-20T16:12:23" hostname="localhost">
+  <properties>
+    <property name="device" value="MD706 - 4.1.2" />
+    <property name="flavor" value="" />
+    <property name="project" value="app" />
+  </properties>
+  <testcase name="test3" classname="com.example.eliteparking.tests.ApplicationTest" time="0.0" />
+  <testcase name="test4" classname="com.example.eliteparking.tests.ApplicationTest" time="0.093">
+    <failure>junit.framework.AssertionFailedError
+at com.example.eliteparking.tests.ApplicationTest.test4(ApplicationTest.java:18)
+at java.lang.reflect.Method.invokeNative(Native Method)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:190)
+at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:175)
+at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:555)
+at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1590)
+</failure>
+  </testcase>
+  <testcase name="testAndroidTestCaseSetupProperly" classname="com.example.eliteparking.tests.ApplicationTest" time="0.0" />
+  <testcase name="testApplicationTestCaseSetUpProperly" classname="com.example.eliteparking.tests.ApplicationTest" time="0.0" />
+  <testcase name="test_1" classname="com.example.eliteparking.tests.HTTPTest" time="0.0" />
+</testsuite>

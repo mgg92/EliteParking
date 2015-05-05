@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/tvPersonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="PERSONAL" 
+        android:textSize="22dp"/>
+
+    <TextView
+        android:id="@+id/tvPlaca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvPersonal"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="22dp"
+        android:text="Placa:" />
+
+    <TextView
+        android:id="@+id/tvCodigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvPlaca"
+        android:layout_below="@+id/tvPlaca"
+        android:layout_marginTop="22dp"
+        android:text="Código:" />
+
+    <EditText
+        android:id="@+id/etPlaca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvPlaca"
+        android:layout_alignBottom="@+id/tvPlaca"
+        android:layout_alignLeft="@+id/tvPersonal"
+        android:editable="false"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/etCodigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvCodigo"
+        android:layout_alignBottom="@+id/tvCodigo"
+        android:layout_alignLeft="@+id/etPlaca"
+        android:editable="false"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/tvHoraServicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="Hora servicio:"
+        android:layout_below="@+id/etCodigo"
+        android:layout_alignLeft="@+id/tvCodigo" />
+
+    <TextView
+        android:id="@+id/tvEstablecimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Lugar:"
+        android:layout_below="@+id/tvHoraServicio"
+        android:layout_alignLeft="@+id/tvHoraServicio" />
+
+    <EditText
+        android:id="@+id/etHoraServicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:ems="10"
+        android:layout_above="@+id/tvEstablecimiento"
+        android:layout_alignLeft="@+id/etCodigo" />
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tvCodigo"
+        android:layout_below="@+id/tvAparcacoches"
+        android:layout_marginTop="30dp"
+        android:text="Nombre:" />
+
+    <TextView
+        android:id="@+id/tvCedula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="Cédula:"
+        android:layout_below="@+id/tvNombre"
+        android:layout_alignLeft="@+id/tvNombre" />
+
+    <TextView
+        android:id="@+id/tvcelular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Celular:"
+        android:layout_below="@+id/tvCedula"
+        android:layout_alignRight="@+id/tvEstablecimiento" />
+
+    <EditText
+        android:id="@+id/etCedula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:ems="10"
+        android:layout_above="@+id/tvcelular"
+        android:layout_alignLeft="@+id/etNombre" />
+
+    <EditText
+        android:id="@+id/etCelular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:ems="10"
+        android:layout_alignBottom="@+id/tvcelular"
+        android:layout_alignLeft="@+id/etCedula" />
+
+    <TextView
+        android:id="@+id/tvAparcacoches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APARCACOCHES"
+        android:textSize="22dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/etEstablecimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvEstablecimiento"
+        android:layout_alignBottom="@+id/tvEstablecimiento"
+        android:layout_alignLeft="@+id/etHoraServicio"
+        android:editable="false"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:ems="10"
+        android:layout_above="@+id/tvCedula"
+        android:layout_alignLeft="@+id/etEstablecimiento">
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvApellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvCedula"
+        android:layout_below="@+id/tvNombre"
+        android:layout_marginTop="34dp"
+        android:text="Apellidos:" />
+
+    <EditText
+        android:id="@+id/etApellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:ems="10"
+        android:layout_alignBottom="@+id/tvApellidos"
+        android:layout_alignLeft="@+id/etCedula">
+    </EditText>
+
+</RelativeLayout>

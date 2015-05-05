@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Manuelgaleano/AndroidstudioProjects/EliteParking/app/libs/android-async-http-1.4.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f70e680861fdf9449819003e7799a4e9aca047f8">
+        <dex dex="/Users/Manuelgaleano/AndroidstudioProjects/EliteParking/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.3-af9c96e9517ccbd63b62d12b1d05d0dce6673074.jar" />
+    </item>
+    <item
+        jar="/Users/Manuelgaleano/AndroidstudioProjects/EliteParking/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="/Users/Manuelgaleano/AndroidstudioProjects/EliteParking/app/build/intermediates/pre-dexed/debug/classes-a8fbc569a36c6084e927d132981414fcdc20f74b.jar" />
+    </item>
+    <item
+        jar="/Users/Manuelgaleano/AndroidstudioProjects/EliteParking/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/Users/Manuelgaleano/AndroidstudioProjects/EliteParking/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-1586df7cd19f778544fcd453b1810d302e4733c1.jar" />
+    </item>
+    <item
+        jar="/Users/Manuelgaleano/AndroidstudioProjects/EliteParking/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/Users/Manuelgaleano/AndroidstudioProjects/EliteParking/app/build/intermediates/pre-dexed/debug/classes-1f5f4c976682e75e70126afb6a17f8be43418539.jar" />
+    </item>
+    <item
+        jar="/Users/Manuelgaleano/AndroidstudioProjects/EliteParking/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="/Users/Manuelgaleano/AndroidstudioProjects/EliteParking/app/build/intermediates/pre-dexed/debug/classes-ae95c580c6c1f55b4e33d18e22cbadc0254417b1.jar" />
+    </item>
+    <item
+        jar="/Users/Manuelgaleano/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/Users/Manuelgaleano/AndroidstudioProjects/EliteParking/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-122905336f4c86ad9d414db51e60521906f8dd6f.jar" />
+    </item>
+
+</items>

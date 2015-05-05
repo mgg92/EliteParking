@@ -12,8 +12,7 @@
 			if ($_SERVER["REQUEST_METHOD"] == "GET") {
 
 			 	$token = test_input($_GET["t"]);
-			 	$calificacion = test_input($_GET["c"]);
-			 	$observacion = test_input($_GET["o"]);
+			 	$s = test_input($_GET["s"]);
 
 				$servername = "localhost";
 				$username = "u511611292_root";
@@ -32,8 +31,14 @@
 
 		    		$idServicioActivo = $sa[0]["idServicioActivo"];
 
-					$stmt = $conn->prepare("INSERT INTO `Calificacion`(`idCalificacion`, `idServicioActivo`, `Calificacion`, `Observacion`, `FechaHora`) 
-						VALUES (0,$idServicioActivo,$calificacion,$observacion, CONVERT_TZ(NOW(),'UTC','America/Bogota'))"); 
+					$stmt = $conn->prepare("INSERT INTO  `u511611292_ep`.`Chat` (
+																				`idChat` ,
+																				`idServicioActivo` ,
+																				`Mensaje` ,
+																				`FechaHora` ,
+																				`Estado`
+																				)
+																				VALUES ('0','$token','$s', CONVERT_TZ(NOW(),'UTC','America/Bogota'), '0')"); 
 		    		$stmt->execute();		    		
 				}
 				catch(PDOException $e) {
