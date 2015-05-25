@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tvCalifica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="CALIFICA NUESTRO SERVICIO"
+        android:textSize="22dp" />
+
+    <RatingBar
+        android:id="@+id/rbRanking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCalifica"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp" />
+
+    <TextView
+        android:id="@+id/tvObservaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rbRanking"
+        android:layout_below="@+id/rbRanking"
+        android:layout_marginTop="24dp"
+        android:text="Observaciones:" />
+
+    <EditText
+        android:id="@+id/etObservaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvObservaciones"
+        android:layout_alignRight="@+id/rbRanking"
+        android:layout_below="@+id/tvObservaciones"
+        android:layout_marginTop="30dp"
+        android:inputType="textMultiLine"
+        android:textColor="#FFFFFF"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etObservaciones"
+        android:layout_alignRight="@+id/rbRanking"
+        android:layout_below="@+id/etObservaciones"
+        android:layout_marginTop="16dp"
+        android:text="Enviar"
+        android:textColor="#FFFFFF"/>
+    
+</RelativeLayout>

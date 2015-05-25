@@ -981,37 +981,38 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f050005;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f06001a;
-        public static final int abc_search_url_text_normal=0x7f060000;
-        public static final int abc_search_url_text_pressed=0x7f060001;
-        public static final int abc_search_url_text_selected=0x7f060002;
-        public static final int common_action_bar_splitter=0x7f060003;
-        public static final int common_signin_btn_dark_text_default=0x7f060004;
-        public static final int common_signin_btn_dark_text_disabled=0x7f060005;
-        public static final int common_signin_btn_dark_text_focused=0x7f060006;
-        public static final int common_signin_btn_dark_text_pressed=0x7f060007;
-        public static final int common_signin_btn_default_background=0x7f060008;
-        public static final int common_signin_btn_light_text_default=0x7f060009;
-        public static final int common_signin_btn_light_text_disabled=0x7f06000a;
-        public static final int common_signin_btn_light_text_focused=0x7f06000b;
-        public static final int common_signin_btn_light_text_pressed=0x7f06000c;
-        public static final int common_signin_btn_text_dark=0x7f06001b;
-        public static final int common_signin_btn_text_light=0x7f06001c;
-        public static final int wallet_bright_foreground_disabled_holo_light=0x7f06000d;
-        public static final int wallet_bright_foreground_holo_dark=0x7f06000e;
-        public static final int wallet_bright_foreground_holo_light=0x7f06000f;
-        public static final int wallet_dim_foreground_disabled_holo_dark=0x7f060010;
-        public static final int wallet_dim_foreground_holo_dark=0x7f060011;
-        public static final int wallet_dim_foreground_inverse_disabled_holo_dark=0x7f060012;
-        public static final int wallet_dim_foreground_inverse_holo_dark=0x7f060013;
-        public static final int wallet_highlighted_text_holo_dark=0x7f060014;
-        public static final int wallet_highlighted_text_holo_light=0x7f060015;
-        public static final int wallet_hint_foreground_holo_dark=0x7f060016;
-        public static final int wallet_hint_foreground_holo_light=0x7f060017;
-        public static final int wallet_holo_blue_light=0x7f060018;
-        public static final int wallet_link_text_light=0x7f060019;
-        public static final int wallet_primary_text_holo_light=0x7f06001d;
-        public static final int wallet_secondary_text_holo_dark=0x7f06001e;
+        public static final int Gris=0x7f060000;
+        public static final int abc_search_url_text_holo=0x7f06001b;
+        public static final int abc_search_url_text_normal=0x7f060001;
+        public static final int abc_search_url_text_pressed=0x7f060002;
+        public static final int abc_search_url_text_selected=0x7f060003;
+        public static final int common_action_bar_splitter=0x7f060004;
+        public static final int common_signin_btn_dark_text_default=0x7f060005;
+        public static final int common_signin_btn_dark_text_disabled=0x7f060006;
+        public static final int common_signin_btn_dark_text_focused=0x7f060007;
+        public static final int common_signin_btn_dark_text_pressed=0x7f060008;
+        public static final int common_signin_btn_default_background=0x7f060009;
+        public static final int common_signin_btn_light_text_default=0x7f06000a;
+        public static final int common_signin_btn_light_text_disabled=0x7f06000b;
+        public static final int common_signin_btn_light_text_focused=0x7f06000c;
+        public static final int common_signin_btn_light_text_pressed=0x7f06000d;
+        public static final int common_signin_btn_text_dark=0x7f06001c;
+        public static final int common_signin_btn_text_light=0x7f06001d;
+        public static final int wallet_bright_foreground_disabled_holo_light=0x7f06000e;
+        public static final int wallet_bright_foreground_holo_dark=0x7f06000f;
+        public static final int wallet_bright_foreground_holo_light=0x7f060010;
+        public static final int wallet_dim_foreground_disabled_holo_dark=0x7f060011;
+        public static final int wallet_dim_foreground_holo_dark=0x7f060012;
+        public static final int wallet_dim_foreground_inverse_disabled_holo_dark=0x7f060013;
+        public static final int wallet_dim_foreground_inverse_holo_dark=0x7f060014;
+        public static final int wallet_highlighted_text_holo_dark=0x7f060015;
+        public static final int wallet_highlighted_text_holo_light=0x7f060016;
+        public static final int wallet_hint_foreground_holo_dark=0x7f060017;
+        public static final int wallet_hint_foreground_holo_light=0x7f060018;
+        public static final int wallet_holo_blue_light=0x7f060019;
+        public static final int wallet_link_text_light=0x7f06001a;
+        public static final int wallet_primary_text_holo_light=0x7f06001e;
+        public static final int wallet_secondary_text_holo_dark=0x7f06001f;
     }
     public static final class dimen {
         public static final int abc_action_bar_default_height=0x7f070000;
@@ -1180,7 +1181,7 @@ containing a value of this type.
         public static final int book_now=0x7f080026;
         public static final int btnEnviar=0x7f080052;
         public static final int btnEnviarChat=0x7f080059;
-        public static final int btnIngresar=0x7f080070;
+        public static final int btnIngresar=0x7f08006f;
         public static final int btnUbicacion=0x7f080072;
         public static final int buyButton=0x7f080022;
         public static final int buy_now=0x7f080027;
@@ -1198,14 +1199,14 @@ containing a value of this type.
         public static final int etCedula=0x7f080066;
         public static final int etCelular=0x7f080068;
         public static final int etCodigo=0x7f08005e;
-        public static final int etContra=0x7f08006f;
+        public static final int etContra=0x7f08006e;
         public static final int etEstablecimiento=0x7f080069;
         public static final int etHoraServicio=0x7f080061;
         public static final int etNombre=0x7f080067;
         public static final int etObservaciones=0x7f080051;
         public static final int etObservacionesChat=0x7f080058;
         public static final int etPlaca=0x7f08005d;
-        public static final int etUsuario=0x7f08006e;
+        public static final int etUsuario=0x7f08006c;
         public static final int expand_activities_button=0x7f080038;
         public static final int expanded_menu=0x7f08003e;
         public static final int grayscale=0x7f08002a;
@@ -1216,6 +1217,7 @@ containing a value of this type.
         public static final int hybrid=0x7f080013;
         public static final int icon=0x7f08003c;
         public static final int ifRoom=0x7f080018;
+        public static final int imLogo=0x7f080070;
         public static final int image=0x7f080039;
         public static final int listMode=0x7f080006;
         public static final int list_item=0x7f08003b;
@@ -1260,10 +1262,10 @@ containing a value of this type.
         public static final int top_action_bar=0x7f080032;
         public static final int tvAparcacoches=0x7f080063;
         public static final int tvApellidos=0x7f08006a;
+        public static final int tvBienvenida=0x7f08006d;
         public static final int tvCalifica=0x7f08004e;
         public static final int tvCedula=0x7f080064;
         public static final int tvCodigo=0x7f08005c;
-        public static final int tvContra=0x7f08006c;
         public static final int tvEstablecimiento=0x7f080060;
         public static final int tvHoraServicio=0x7f08005f;
         public static final int tvNombre=0x7f080062;
@@ -1271,7 +1273,6 @@ containing a value of this type.
         public static final int tvObservacionesChat=0x7f080057;
         public static final int tvPersonal=0x7f08005a;
         public static final int tvPlaca=0x7f08005b;
-        public static final int tvUsuario=0x7f08006d;
         public static final int tvcelular=0x7f080065;
         public static final int up=0x7f080033;
         public static final int useLogo=0x7f08000e;
@@ -1372,17 +1373,10 @@ containing a value of this type.
         public static final int wallet_buy_button_place_holder=0x7f0a0032;
     }
     public static final class style {
-        /** 
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
- API 11 theme customizations can go here. 
+        /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f0b0000;
-        /**  All customizations that are NOT specific to a particular API-level can go here. 
-         */
         public static final int AppTheme=0x7f0b0001;
         public static final int TextAppearance_AppCompat_Base_CompactMenu_Dialog=0x7f0b0002;
         public static final int TextAppearance_AppCompat_Base_SearchResult=0x7f0b0003;

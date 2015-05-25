@@ -39,6 +39,7 @@
         android:layout_below="@+id/tvObservaciones"
         android:layout_marginTop="30dp"
         android:inputType="textMultiLine"
+        android:textColor="#FFFFFF"
         android:ems="10" />
 
     <Button
@@ -49,6 +50,7 @@
         android:layout_alignRight="@+id/rbRanking"
         android:layout_below="@+id/etObservaciones"
         android:layout_marginTop="16dp"
-        android:text="Enviar" />
+        android:text="Enviar"
+        android:textColor="#FFFFFF"/>
     
 </RelativeLayout><!-- From: file:/Users/Manuelgaleano/AndroidstudioProjects/EliteParking/app/src/main/res/layout/activity_calificacion.xml -->

@@ -1,0 +1,16 @@
+<resources>
+    
+    <color name="Gris">#6E6E6E</color>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+       <item name="android:windowBackground">@color/Gris</item>
+       <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>
+
+

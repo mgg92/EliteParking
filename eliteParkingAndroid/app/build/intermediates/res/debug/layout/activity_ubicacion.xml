@@ -14,6 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Ubicación de mi carro"
+        android:textColor="#FFFFFF"
         android:id="@+id/btnUbicacion"
         android:layout_below="@+id/Mapa"
         android:layout_alignParentLeft="true" />

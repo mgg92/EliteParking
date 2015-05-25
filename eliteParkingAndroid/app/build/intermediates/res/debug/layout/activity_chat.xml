@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:padding="15dp">
 
 
     <RadioGroup
@@ -16,18 +17,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Salgo en 10 minutos"
+            android:textColor="#FFFFFF"
             android:id="@+id/rbYaSalgo" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Necesito mi carro"
+            android:textColor="#FFFFFF"
             android:id="@+id/rbCarro" />
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Necesito a mi aparcacoches"
+            android:textColor="#FFFFFF"
             android:id="@+id/rbAparcacoches" />
     </RadioGroup>
 
@@ -45,14 +49,16 @@
         android:layout_height="wrap_content"
         android:inputType="textMultiLine"
         android:ems="10"
+        android:textColor="#FFFFFF"
         android:id="@+id/etObservacionesChat"
         android:layout_below="@+id/tvObservacionesChat"
         android:layout_alignParentLeft="true" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="Enviar"
+        android:textColor="#FFFFFF"
         android:id="@+id/btnEnviarChat"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="105dp"

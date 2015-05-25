@@ -7,13 +7,13 @@
 			  return $data;
 			}
 
-			$placa = $calificacion = $observacion = $idVehiculo = "";
+			$placa = $calificacion = $observacion = $idServicioActivo = "";
 
 			if ($_SERVER["REQUEST_METHOD"] == "GET") {
 
-			 	$placa = test_input($_GET["placa"]);
-			 	$calificacion = test_input($_GET["calificacion"]);
-			 	$observacion = test_input($_GET["observacion"]);
+			 	$token = test_input($_GET["t"]);
+			 	$calificacion = test_input($_GET["c"]);
+			 	$observacion = test_input($_GET["o"]);
 
 				$servername = "localhost";
 				$username = "u511611292_root";
@@ -25,15 +25,15 @@
 
 				    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-					$stmt = $conn->prepare("SELECT idVehiculo FROM Vehiculo WHERE VehiculoPlaca = $placa"); 
+					$stmt = $conn->prepare("SELECT idServicioActivo FROM ServicioActivo sa WHERE sa.ServicioToken = $token"); 
 		    		$stmt->execute();
 
 		    		$sa = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-		    		$idVehiculo = $sa[0]["idVehiculo"];
+		    		$idServicioActivo = $sa[0]["idServicioActivo"];
 
-					$stmt = $conn->prepare("INSERT INTO `Calificacion`(`idCalificacion`, `idVehiculo`, `Calificacion`, `Observacion`) 
-						VALUES (0,$idVehiculo,$calificacion,$observacion)"); 
+					$stmt = $conn->prepare("INSERT INTO `Calificacion`(`idCalificacion`, `idServicioActivo`, `Calificacion`, `Observacion`, `FechaHora`) 
+						VALUES (0,$idServicioActivo,$calificacion,$observacion, CONVERT_TZ(NOW(),'UTC','America/Bogota'))"); 
 		    		$stmt->execute();		    		
 				}
 				catch(PDOException $e) {

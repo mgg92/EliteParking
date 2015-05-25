@@ -17,7 +17,7 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Elite Parking"
         android:theme="@style/AppTheme" >
         <meta-data
             android:name="com.google.android.gms.version"
@@ -28,7 +28,7 @@
 
         <activity
             android:name="com.example.eliteparking.MainActivity"
-            android:label="Elite Parking" >
+            android:label="EliteParking" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -46,7 +46,7 @@
         </activity>
         <activity
             android:name="com.example.eliteparking.InfoActivity"
-            android:label="Elite Parking" >
+            android:label="Información" >
             <intent-filter>
                 <action android:name="Info" />
 
@@ -55,7 +55,7 @@
         </activity>
         <activity
             android:name="com.example.eliteparking.ChatActivity"
-            android:label="Elite Parking" >
+            android:label="Chat" >
             <intent-filter>
                 <action android:name="Chat" />
 
@@ -64,7 +64,7 @@
         </activity>
         <activity
             android:name="com.example.eliteparking.UbicacionActivity"
-            android:label="Elite Parking" >
+            android:label="Ubicación" >
             <intent-filter>
                 <action android:name="Ubicacion" />
 
@@ -73,7 +73,7 @@
         </activity>
         <activity
             android:name="com.example.eliteparking.CalificacionActivity"
-            android:label="Elite Parking" >
+            android:label="Calificación" >
             <intent-filter>
                 <action android:name="Calificacion" />
 

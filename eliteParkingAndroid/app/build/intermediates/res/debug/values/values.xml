@@ -71,6 +71,11 @@
     <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
     <bool name="abc_split_action_bar_is_narrow">true</bool>
+    <!-- From: file:/Users/Manuelgaleano/AndroidstudioProjects/EliteParking/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <color name="Gris">#6E6E6E</color>
+    <!-- From: file:/Users/Manuelgaleano/AndroidstudioProjects/EliteParking/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
+    <eat-comment/>
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
@@ -230,14 +235,11 @@
     <!-- From: file:/Users/Manuelgaleano/AndroidstudioProjects/EliteParking/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
+
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+       <item name="android:windowBackground">@color/Gris</item>
+       <item name="android:textColor">#FFFFFF</item>
     </style>
     <!-- From: file:/Users/Manuelgaleano/AndroidstudioProjects/EliteParking/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values/values.xml -->
     <eat-comment/>
